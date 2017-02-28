@@ -10,7 +10,8 @@ public class DoorFactory {
 
     public static void main(String[] args) {
         System.out.println("An example of Creational Design Pattern.");
-        Door door = DoorFactory.makeDoor(100.0, 200.0);
         /** When creating an object is not just a few assignment and involves some logic **/
+
+        Door door = DoorFactory.makeDoor(100.0, 200.0);
     }
 }
